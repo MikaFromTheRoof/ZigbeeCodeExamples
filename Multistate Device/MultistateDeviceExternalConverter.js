@@ -40,10 +40,10 @@ const tzLocal = {
 //
 const definition = {
     fingerprint: [
-        { modelID: 'ZigbeeMultistateDevice', manufacturerName: 'Espressif' },
+        { modelID: 'ZigbeeMultistateDevice', manufacturerName: 'MikaFromTheRoof' },
     ],
     model: 'custom-multistate-device',
-    vendor: 'Custom',
+    vendor: 'MikaFromTheRoof',
     description: 'Custom Zigbee multistate fan mode device',
     fromZigbee: [fzLocal.multistate_output_custom],
     toZigbee: [tzLocal.fan_mode],
