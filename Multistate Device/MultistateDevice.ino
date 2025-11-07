@@ -60,8 +60,8 @@ void setup() {
   pinMode(button, INPUT_PULLUP);
 
   // Optional: set Zigbee device name and model
-  log_d("Set Zigbee device name and model");
-  zbMultistateDeviceCustom.setManufacturerAndModel("Espressif", "ZigbeeMultistateDevice");
+  log_d("Set Zigbee device manufacturer and model");
+  zbMultistateDeviceCustom.setManufacturerAndModel("MikaFromTheRoof", "ZigbeeMultistateDevice");
 
   // Set up custom output
   log_d("Add Multistate Output");
